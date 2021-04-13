@@ -1,11 +1,12 @@
 html {
   box-sizing: border-box;
+  font-family: Merriweather, serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-  font-family: Merriweather, serif;
-  line-height: 1.5;
+
 }
 
 img {
@@ -36,7 +37,7 @@ main {
   grid-area: banner;
 }
 
-.banner-text{
+.banner-text {
   grid-area: banner;
   color: #fff;
   align-self: end;
